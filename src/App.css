@@ -4,7 +4,7 @@
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  /* margin: 20px; */
   padding: 0;
 }
 
@@ -52,7 +52,7 @@ ul {
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  /* margin: 20px; */
   padding: 0;
 }
 
@@ -82,7 +82,9 @@ body {
 }
 .game {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 .game-info {

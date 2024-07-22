@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="flex justify-center">
-      <ul className="text-3xl flex justify-between w-1/3">
+      <ul className="text-3xl flex justify-between w-full">
         <li className="hover:text-blue-500 underline">
           <NavLink
             to="/three"
